@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+        <link rel="shortcut icon" href="img/main1.png" type="image/x-icon">
+    <!--Fim favicon -->
+
+    <!-- icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- or -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--Fim  icons -->
+
+    <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Fim fonts -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <!--script-->
+    <script src="js/scripts.js"></script>
+
+    <title>Ecommerce Phones</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bx-headphone'></i>
+            <span>Soundbox</span>
+        </a>
+        <ul class="navegacao">
+            <li><a href="#">Visao geral</a></li>
+            <li><a href="#">Teach Speces</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul> <!--navegação  -->
+        <div class="header-icons">
+            
+            <i class='bx bx-cart'></i>
+           
+            <div id="menu">
+                <i class='bx bx-menu'></i>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="produto-container">
+            <div class="home-img">
+                <img id="one" src="img/product1.png" alt="headPhone verde">
+            </div> <!-- main img -->
+            
+            
+            <div class="home-text">
+                <h1> Wireless <br>headphones</h1>
+                <h5>The smarter way to listen</h5>
+                <h3>$199.00</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div><!--- Home-text-->
+        </section><!--- produto container-->
+
+        <div class="slider">
+            <div class="row">            
+                <li><img src="img/main1.png" onclick="slider('img/product1.png', 'HeadPhone azul' )" alt="HeadPhone azul"></li>
+            </div><!---row--->
+            <div class="row2">            
+                <li><img src="img/main2.png" onclick="slider('img/product2.png', 'HeadPhone branco')" alt="HeadPhone branco "></li>
+            </div><!---row--->
+            <div class="row3">            
+                <li><img src="img/main3.png" onclick="slider('img/product3.png', 'HeadPhone preto')" alt="HeadPhone preto"></li>
+            </div><!---row--->
+        </div><!----Slider------>
+
+    </main> <!-- main -->
+
+</body>
+
+</html>
